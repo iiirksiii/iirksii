@@ -4,7 +4,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Rajat Kumar Singh's Coding Journey.
 show_excerpts: true # set to true to show excerpts on the homepage
-baseurl: iirksii
+
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -19,6 +19,7 @@ texture:
   style: black
   showNav: false
   showPicker: false
+  baseurl: "iirksii"
 
   # generate social links in footer
   social_links:
