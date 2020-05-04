@@ -19,7 +19,7 @@ texture:
   style: black
   showNav: false
   showPicker: false
-  baseurl: "iirksii"
+  baseurl: iirksii
 
   # generate social links in footer
   social_links:
