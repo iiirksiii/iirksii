@@ -1,0 +1,41 @@
+title: Texture Theme
+author: iiirksiii
+email: your-email@domain.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Rajat Kumar Singh's Coding Journey.
+show_excerpts: true # set to true to show excerpts on the homepage
+baseurl: "iirksii"
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: RKS Coding Journey
+  tagline: Developer. ProblemSolver
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: false
+  showPicker: false
+
+  # generate social links in footer
+  social_links:
+    twitter: iirksii
+    github:  iiirksiii
+    #linkedIn: in/thelehhman
+    #rss: rss
+
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+# theme: texture
+remote_theme: thelehhman/texture
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
